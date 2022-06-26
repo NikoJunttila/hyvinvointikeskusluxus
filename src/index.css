@@ -1,0 +1,175 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Georgia", Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header-pic-div{
+  height:20vh;
+  width: 100%;
+  background-image: url("./Img/Logo2.png");
+  background-size: 100% 20vh;
+
+}
+
+.header-links{
+  padding: 30px;
+  text-align: center;
+  background-image: -webkit-linear-gradient(top, #cedb7f, #90b545);
+  height: 5vh;
+  box-shadow: 0px 6px 15px 1px #000;
+}
+span{
+padding:10px;
+}
+.sider-main{
+  margin-right: auto;
+width: 30vh;
+word-wrap: break-word;
+margin-left:80%;
+position: absolute;
+top: 40%;
+}
+.sider-title{
+  box-shadow: 0px 6px 15px 1px #000;
+  background-image: -webkit-linear-gradient(top, #cedb7f, #90b545);
+  border-radius: 25px;
+text-align: center;
+}
+.underline{
+  text-decoration-line: underline; 
+  color: green;
+}
+.etusivu{
+  display:grid;
+  margin:auto;
+  width: 80vh;
+  grid-gap: 10px;
+  top: 20px;
+  padding: 10px;
+
+}
+.etusivu-kuva{
+  float: left;
+  clear: left;
+}
+.right-container{
+  display:flex;
+  justify-content: space-around;
+  padding: 10px;
+  text-align: left;
+  line-height: 3;
+}
+.bold{
+  font-weight: bold;
+}
+.boldu{
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+.footer-text{
+  width: 50%;
+  margin: 0 auto;
+}
+.footer-container{
+  background-color: #90b545;
+  margin-top: 1em;
+  padding: 1em;
+}
+.main{
+  min-height: 80vh;
+min-width: 80vh;
+display:grid;
+  margin:auto;
+}
+.hyvinvointi{
+  display:grid;
+  margin:auto;
+ 
+    width: 80vh;
+    grid-gap: 10px;
+    top: 20px;
+    padding: 10px;
+
+}
+.header-link {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#15752f;
+	border-radius:19px;
+	border:1px solid #0f991d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.header-link:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.header-link:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+.ajanvaraus{
+  text-align: center;
+  padding: 2%;
+}
+.ajanvaraus2{
+  padding: 2%;
+  float: left;
+}
+
+@media (max-width:1200px){
+  .sider-main{
+  width: 100%;
+  word-wrap: break-word;
+  position: relative;
+  text-align: center;
+    margin-right:0%;
+  margin-left:0%;
+  top: 0px;
+  }
+  .header-pic-div{
+    padding: 20px;
+    height:35px;
+    font-size: 15px;
+  }
+  .right-container{
+      display:flex;
+      justify-content:baseline;
+      padding: 10px;
+      text-align: left;
+      line-height: 3;
+      position: relative;
+      float:right;
+  }
+  .etusivu-kuva{
+    float: top;
+    clear: top;
+    position: relative;
+  }
+  .header-links{
+    padding: 10px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, #cedb7f, #90b545);
+    height: 50px;
+    box-shadow: 0px 6px 15px 1px #000;
+  }
+}
