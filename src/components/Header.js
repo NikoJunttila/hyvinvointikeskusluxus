@@ -1,21 +1,31 @@
-function HeaderDeskTop(props){
+import HeaderMobile from "./HeaderMobile"
+import { Link} from "react-router-dom"
+
+function HeaderDeskTop(){
     return(
         <div>
-            <div className="header-pic-div">            
+              <div className="header-pic-div"> 
+    <div className="centered"><span>Hyvinvointikeskus Luxus</span></div>           
+    </div>
+            <div className="nav-center">
+                <div className="nav-header">
+               <HeaderMobile />
+                </div>
+                <div className="header-links">
+           <Link to ="/"> <button className="header-link" >Etusivu</button> </Link>
+           <Link to ="nettiajanvaraus"> <button className="header-link" >ajanvaraus</button> </Link>
+           <Link to ="hyvinvointipalvelut"><button className="header-link" >Hyvinvointipalvelut</button> </Link>
+           <Link to ="eah"> <button className="header-link" >EAH - koulutus</button> </Link>
+           <br></br>
+           <Link to ="kauppa"> <button className="header-link" >Kauppa</button> </Link>
+           <Link to ="hinnasto"> <button className="header-link" >Hinnasto</button> </Link>
+           <Link to ="yhteystiedot"> <button className="header-link" >Yhteystiedot</button> </Link>
+           <Link to ="susanna"> <button className="header-link" >Susanna</button> </Link>
+           <Link to ="galleria"><button className="header-link" >Galleria</button> </Link>
+           <Link to ="tapahtumat"> <button className="header-link" >Tapahtumat</button></Link>
+           <Link to ="tietosuojaseloste"> <button className="header-link" >Tietosuojaseloste</button> </Link>
             </div>
-            <div className="header-links">
-            <button className="header-link" onClick={props.site1}>Etusivu</button>
-            <button className="header-link" onClick={props.site2}>Nettiajanvaraus</button>
-            <button className="header-link" onClick={props.site3}>Hyvinvointipalvelut</button>
-            <button className="header-link" onClick={props.site5}>EAH - koulutus</button>
-            <br></br>
-            <button className="header-link" onClick={props.site11}>Kauppa</button>
-            <button className="header-link" onClick={props.site6}>Hinnasto</button>
-            <button className="header-link" onClick={props.site7}>Yhteistiedot</button>
-            <button className="header-link" onClick={props.site10}>INFO</button>
-            <button className="header-link" onClick={props.site8}>Galleria</button>
-            <button className="header-link" onClick={props.site9}>Tapahtumat</button>
-            <button className="header-link" onClick={props.site4}>Tietosuojaseloste</button>
+           
             </div>
         </div>
     )

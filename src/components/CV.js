@@ -1,23 +1,25 @@
 function CV(){
     return(
         <div className="etusivu">
-            <h3 className="ungerline">Henkilökunta / CV</h3>
-            <hr></hr>
-            <h4>Hei Sinulle!</h4>
-            <p>Olen Susanna Höijer ja toimin yrittäjänä Hyvinvointikeskus Luxuksessa</p>
-            <p>Olen toiminut parantajana, näkijänä ja hierojana vuodesta 2002 saakka sekä kouluttanut myös muita toimimaan energiaparantajina.</p>
-            <p>Theta Healerina olen toiminut vuodesta 2017 saakka.</p>
-            <p>Selvänäkö ja energiahoitaminen on kuitenkin kulkenut mukanani jo ihan lapsuudestani saakka.
-Reilut parikymmentä vuotta olen ollut kiinnostunut henkisen hyvinvoinnin merkityksestä fyysisen kehon huoltamisessa. Yrittäjänä tällä alalla olen toiminut vuodesta 2002, tuolloin aloitin hierojana ja mukana oli myös korvakynttilähoidot ja energiahoidot. Ensimmäisiä koulutuksia aloitin pitämään vuonna 2005, tuolloin oli suosittuja enkeli koulutukset ja intuitiiviset energia maalaus kurssit :)</p>
-            <p>Vuosien varrella omaa itseäni kehittäessäni ja tietoisuuteni kasvaessa olen luonut oman konseptin hyvinvointipalveluihin. Katson Sinun tilaasi ammattitaidolla kokonaisvaltaisesti. Siten myös hoidot valikoituu sen mukaan mikä on Sinun eheytymisen tarpeesi hetkellä kun oman hoitoajan valitset. Valitsemasi hoito on tukena sinun matkallasi.</p>
+            <h3 className="cringe">Heissan Sinulle!</h3>
+            <p>Olen Susanna Höijer ja toimin yrittäjänä Hyvinvointikeskus Luxuksessa
+Olen toiminut yrittäjänä; Parantajana, näkijänä ja hierojana vuodesta 2002 saakka sekä
+kouluttanut myös muita toimimaan energiaparantajina.</p>
+<p>Selvänäkö ja energiahoitaminen on kuitenkin kulkenut mukanani jo ihan lapsuudestani saakka
+sillä olen aina ollut herkkä aistimaan ja näkemään energioita ja asioita selvänäkemisen kautta.</p>
+<p>Reilut parikymmentä vuotta olen ollut kiinnostunut henkisen hyvinvoinnin
+merkityksestä fyysisen kehon huoltamisessa ja olen omaa itseäni kehittänyt niin hyvinvoinnin
+kuin tietoisuuteni kautta ja tämän pohjalta kuin myös saamieni koulutuksien pohjalta olen luonut
+oman konseptin Hyvinvointikeskus Luxusen hyvinvointipalveluihin. Siispä katson Sinun tilaasi
+aina kokonaisvaltaisesti on kyseessä sitten hieronta tai muu vaihtoehtoinen hyvinvointipalvelu
+jonka valitset tueksi ja oppaaksi matkallesi.</p>
             <p>Hoidot eivät ole lääketieteellisiä eivätkä korvaa mitään lääketieteellistä hoitoa.</p>
             <br></br>
             <h4 className="bold">Koulutukset</h4>
-            <p>• Kodinhoitajan ammattitutkinto, Kauhajoki 1991</p>
-            <p>• Klassinen hierojakoulutus, Kauhajoki 2001</p>
-            <p>• Hierojan ammattitutkinto, Tampere 2001</p>
-            <p>• Terveydenhuollon rekisteröity hieroja Valvira/ Koulutettu hieroja 2001</p>
-            <p>• Vartijan koulutus 2018 Tampere</p>
+            <p>Kodinhoitajan ammattitutkinto, Kauhajoki 1991</p>
+            <p>Klassinen hierojakoulutus, Kauhajoki 2001</p>
+            <p>Hierojan ammattitutkinto, Tampere 2001</p>
+            <p>Terveydenhuollon rekisteröity hieroja Valvira/ Koulutettu hieroja 2001</p>
             <br></br>
             <h4 className="bold">Kurssit</h4>
             <p>• Korvakynttilä, 2002</p>
@@ -37,7 +39,7 @@ Reilut parikymmentä vuotta olen ollut kiinnostunut henkisen hyvinvoinnin merkit
             <p>• Hyvinvointimessut Kiuruvedellä 2012</p>
             <p>• Hyvinvointimessut Vimpelissä 2017 ja 2018</p>
             <br></br>
-            <h4 className="bold">Kirja</h4>
+            <p className="bold">Kirja, jonka olen kirjoittanut:</p>
             <p className="bold">Esikoisromaani</p>
             <p>Unikuvan saari, 2008</p>
             <br></br>

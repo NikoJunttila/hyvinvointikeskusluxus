@@ -8,6 +8,7 @@ body {
   font-family: "Georgia", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 code {
@@ -15,18 +16,31 @@ code {
     monospace;
 }
 .header-pic-div{
-  height:20vh;
+  display: flex;
+  height:10vh;
   width: 100%;
-  background-image: url("./Img/Logo2.png");
-  background-size: 100% 20vh;
-
+  background-image: url("https://t4.ftcdn.net/jpg/02/28/92/23/360_F_228922358_V7pawRfc0ryB6rtkLBSI2782CyAZi2s4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  position: relative;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Goudy Old Style", "Courier New", serif;
 }
 
 .header-links{
   padding: 30px;
   text-align: center;
-  background-image: -webkit-linear-gradient(top, #cedb7f, #90b545);
+  background-image: -webkit-linear-gradient(top, #6af24c, #90b545);
   height: 5vh;
+  width: 100%;
   box-shadow: 0px 6px 15px 1px #000;
 }
 span{
@@ -42,7 +56,7 @@ top: 40%;
 }
 .sider-title{
   box-shadow: 0px 6px 15px 1px #000;
-  background-image: -webkit-linear-gradient(top, #cedb7f, #90b545);
+  background-image: -webkit-linear-gradient(top, #6af24c, #90b545);
   border-radius: 25px;
 text-align: center;
 }
@@ -82,7 +96,7 @@ text-align: center;
   margin: 0 auto;
 }
 .footer-container{
-  background-color: #90b545;
+  background-color: #67b545;
   margin-top: 1em;
   padding: 1em;
 }
@@ -100,11 +114,17 @@ display:grid;
     grid-gap: 10px;
     top: 20px;
     padding: 10px;
-
+}
+.cringe{
+  color: green;
+}
+.cringe2{
+  color: green;
+  font-weight: bold;
 }
 .header-link {
-	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
-	background-color:#15752f;
+	background:linear-gradient(to bottom, #369950 5%, rgb(71, 149, 32) 100%);
+	background-color:#0b8132;
 	border-radius:19px;
 	border:1px solid #0f991d;
 	display:inline-block;
@@ -124,7 +144,10 @@ display:grid;
 	position:relative;
 	top:1px;
 }
-
+.galleria-img{
+  height: 80%;
+  width: 100%;
+}
         
 
 .ajanvaraus{
@@ -135,8 +158,24 @@ display:grid;
   padding: 2%;
   float: left;
 }
-
+.nav-header{
+  display: none;
+}
+.header-links2{
+  padding: 30px;
+  text-align: center;
+  background-image: -webkit-linear-gradient(top, #6af24c, #90b545);
+  height: 5vh;
+  width: 100%;
+  box-shadow: 0px 6px 15px 1px #000;
+}
 @media (max-width:1200px){
+  .nav-header{
+    display:grid;
+    align-items: center;
+    color: #6af24c;
+    align-self: center;
+  }
   .sider-main{
   width: 100%;
   word-wrap: break-word;
@@ -147,9 +186,17 @@ display:grid;
   top: 0px;
   }
   .header-pic-div{
-    padding: 20px;
-    height:35px;
-    font-size: 15px;
+    display: flex;
+    height:10vh;
+    width: 100%;
+    min-width: 100%;
+    background-image: url("https://t4.ftcdn.net/jpg/02/28/92/23/360_F_228922358_V7pawRfc0ryB6rtkLBSI2782CyAZi2s4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
   }
   .right-container{
       display:flex;
@@ -160,16 +207,41 @@ display:grid;
       position: relative;
       float:right;
   }
+  .etusivu{
+    display:inline;
+    margin: 0%;
+    width: 64%;
+    max-width: 100%;
+    grid-gap: 5px;
+    top: 10px;
+    padding: 5px;
+    word-wrap: break-word;
+  }
   .etusivu-kuva{
     float: top;
     clear: top;
     position: relative;
   }
   .header-links{
-    padding: 10px;
     text-align: center;
-    background-image: -webkit-linear-gradient(top, #cedb7f, #90b545);
+    background-image: -webkit-linear-gradient(top, #6af24c, #90b545);
     height: 50px;
     box-shadow: 0px 6px 15px 1px #000;
+    display: none;
   }
+  .footer-container{
+    background-color: #90b545;
+    margin-top: 1em;
+    padding: 1em;
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .etusivu-kuva2{
+    width: 400px;
+    height: 400px;
+  }
+}
+nav {
+  background: var(--clr-white);
+  padding: 1rem 1.5rem;
 }

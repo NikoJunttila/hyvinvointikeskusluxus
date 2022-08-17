@@ -2,6 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import {Link} from "react-router-dom"
 
 export default function PositionedMenu(props) {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -12,52 +13,6 @@ export default function PositionedMenu(props) {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  const handleClose1 = () => {
-    setAnchorEl(null);
-    props.sit1()
-  };
-  const handleClose2 = () => {
-    setAnchorEl(null);
-    props.sit2()
-  };
-  const handleClose3 = () => {
-    setAnchorEl(null);
-    props.sit3()
-  };
-  const handleClose5 = () => {
-    setAnchorEl(null);
-    props.sit5()
-  };
-  const handleClose6 = () => {
-    setAnchorEl(null);
-    props.sit6()
-  };
-  const handleClose7 = () => {
-    setAnchorEl(null);
-    props.sit7()
-  };
-  const handleClose8 = () => {
-    setAnchorEl(null);
-    props.sit8()
-  };
-  const handleClose9 = () => {
-    setAnchorEl(null);
-    props.sit9()
-  };
-  const handleClose10 = () => {
-    setAnchorEl(null);
-    props.sit10()
-  };
-  const handleClose11 = () => {
-    setAnchorEl(null);
-    props.sit11()
-  };
-  const handleClose4 = () => {
-    setAnchorEl(null);
-    props.sit4()
-  };
-
-
   return (
     <div>
       <Button
@@ -84,17 +39,17 @@ export default function PositionedMenu(props) {
           horizontal: 'left',
         }}
  >
-        <MenuItem onClick={handleClose1}>Etusivu</MenuItem>
-        <MenuItem onClick={handleClose2}>Nettiajanvaraus</MenuItem>
-        <MenuItem onClick={handleClose3}>Hyvinvointipalvelut</MenuItem>
-        <MenuItem onClick={handleClose5}>EAH-koulutus</MenuItem>
-        <MenuItem onClick={handleClose11}>Kauppa</MenuItem>
-        <MenuItem onClick={handleClose6}>Hinnasto</MenuItem>
-        <MenuItem onClick={handleClose7}>Yhteystiedot</MenuItem>
-        <MenuItem onClick={handleClose8}>Galleria</MenuItem>
-        <MenuItem onClick={handleClose9}>Tapahtumat</MenuItem>
-        <MenuItem onClick={handleClose10}>INFO</MenuItem>
-        <MenuItem onClick={handleClose4}>Tietosuojaseloste</MenuItem>
+     <Link to ="/"><MenuItem onClick={handleClose}>Etusivu</MenuItem> </Link>
+     <Link to ="nettiajanvaraus"><MenuItem onClick={handleClose}>ajanvaraus</MenuItem> </Link>
+     <Link to ="hyvinvointipalvelut"><MenuItem onClick={handleClose}>Hyvinvointipalvelut</MenuItem> </Link>
+     <Link to ="eah"><MenuItem onClick={handleClose}>EAH-koulutus</MenuItem> </Link>
+     <Link to ="kauppa"><MenuItem onClick={handleClose}>Kauppa</MenuItem> </Link>
+     <Link to ="hinnasto"><MenuItem onClick={handleClose}>Hinnasto</MenuItem> </Link>
+     <Link to ="yhteystiedot"><MenuItem onClick={handleClose}>Yhteystiedot</MenuItem> </Link>
+     <Link to ="galleria"><MenuItem onClick={handleClose}>Galleria</MenuItem> </Link>
+        <Link to ="tapahtumat"><MenuItem onClick={handleClose}>Tapahtumat</MenuItem> </Link>
+        <Link to ="susanna"><MenuItem onClick={handleClose}>Susanna</MenuItem> </Link>
+        <Link to ="tietosuojaseloste"><MenuItem onClick={handleClose}>Tietosuojaseloste</MenuItem> </Link>
       </Menu>
     </div>
   );

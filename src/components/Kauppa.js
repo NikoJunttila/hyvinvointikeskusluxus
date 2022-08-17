@@ -1,7 +1,7 @@
 function Kauppa(){
     return(
         <div className="ajanvaraus">
-            <p>placeholder for store link</p>
+            <a href="https://holvi.com/shop/hyvinvointikeskusluxus/">https://holvi.com/shop/hyvinvointikeskusluxus/</a>
         </div>
     )
 }

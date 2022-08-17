@@ -1,9 +1,14 @@
 function Nettiajanvaraus(){
 
- // <a href="https://varaa.timma.fi/hyvinvointikeskusluxus" className="ajanvaraus-text">https://varaa.timma.fi/hyvinvointikeskusluxus</a>
     return(
-        <div className="ajanvaraus2">
-          <iframe width="80%" height="100%" frameborder="0" title="ajanvaraus" src="https://varaa.timma.fi/reservation/hyvinvointikeskusluxus" id="reservationIframe99112"></iframe> <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/2.8.3/iframeResizer.min.js"></script>
+        <div className="etusivu">
+       <p>Hoitojen ja palvelujen tilaus ja osto tehdään Hyvinvointikeskus Luxusen verkkokaupasta (Holvi)</p>
+       <p>Ostotapahtuman jälkeen tulee sähköpostiin kuitti, jossa on linkki Book Salon'in sähköiseen ajanvaraukseen, josta voi varata hoitajan.</p>
+       <br></br>
+       <p>Mikäli sinulla on lahjakortti / lahjakortti koodi / käytössä hierontapassin ilmainen hieronta - niiden varaus tehdään tekstiviestillä.</p>
+       <p>Hoitojen tilaus, osto ja ajanvaraus: </p>
+       <br></br>
+       <a href="https://holvi.com/shop/hyvinvointikeskusluxus/section/hoidot-kaltsilassa-etahoidot/">https://holvi.com/shop/hyvinvointikeskusluxus/section/hoidot-kaltsilassa-etahoidot/</a>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 function EAH(){
     return(
         <div className="etusivu">
-            <h3>EAH - Koulutus</h3>
+            <h3 className="cringe">EAH - Koulutus</h3>
             <hr></hr>
             <p>EAH - Koulutus on eheyttävä, avaava ja hoitava energiaparantaja koulutus kaikille, jotka haluavat eheyttää ja hoitaa itseä sekä toimia oman itsensä parantajana. Koulutus antaa myös ammattiosaamisen ja mahdollistaa toimimaan itsenäisenä EAH - energiaparantajana.</p>
             <p>Koulutuksen opetus perustuu vahvasti käytännön harjoitteluun ja opettamiseen. Koulutuksesta saat tehokkaita työvälineitä välittömästi itsesi hoitamiseen sekä omaan työhön siirrettäviä tekniikoita. Tämän koulutuksen kautta opit hoitamaan itseäsi sekä asiakkaita erilaisin tekniikoin.</p>
@@ -57,12 +57,21 @@ function EAH(){
             <br></br>
             <p>Tämä osio kokonaisuudessaan oleillaan sään salliessa ulkosalla luonnossa.</p>
             <br></br>
-            <p><span className="bold">INFO / MAKSUTAVAT:</span>Mikäli haluat suorittaa koulutuksen oman aikataulun mukaisesti tai oman porukan kanssa, ole tällöin yhteydessä sähköpostitse.</p>
-            <p>Koulutuksen maksun voi suorittaa yhdessä tai kahdessa erässä, tai erikseen sovitun maksusuunnitelman mukaisesti.</p>
-            <p>Koulutus suoritetaan 4 peräkkäisenä päivänä tai etukäteen sovitusti joidenkin osioiden osalta voidaan sopia oma erillinen aikataulu.</p>
-            <p>Mikäli tarvitset yösijaa, ole myös tällöin yhteydessä kouluttajaan.</p>
+            <p><span className="bold">INFO / MAKSUTAVAT:</span>Voit ostaa paikan koulutukseen niille alkaville koulutus ajoille jotka on
+erikseen ilmoitettu. Ota seurantaan @hyvinvointikeskusluxus Facebookissa ja Instagrammissa
+sillä uusista tämän kurssin aloitusajankohdista ilmoitellaan näiden kanavien kautta. Mikäli haluat
+suorittaa koulutuksen oman aikataulun mukaisesti tai oman porukan kanssa, ole tällöin
+yhteydessä sähköpostitse.
+Koulutuksen maksun voi suorittaa yhdessä tai kahdessa erässä, tai erikseen sovitun
+maksusuunnitelman mukaisesti.
+Koulutus suoritetaan 4 peräkkäisenä päivänä tai etukäteen sovitusti joidenkin osioiden osalta
+voidaan sopia oma erillinen aikataulu.
+Mikäli tarvitset yösijaa, ole myös tällöin yhteydessä kouluttajaan.</p>
             <br></br>
-            <p>EAH-Koulutuksen on kehittänyt Susanna Höijer. Koulutuksen sisältö perustuu Susannan tietotaitoihin jotka ovat kehittyneet parantajana ja hierojana toimimisesta yli 20 vuoden aikana sekä henkisten ja fyysisten tasojen omakohtaisista kokemuksista ja ymmärtämisestä myös oireiden hoitamisessa. Lisäksi EAH - koulutuksessa yhdistyy Höijerin omien käytyjen koulutuksien ja kurssien kautta välittyvää osaamista.</p>
+            <p>EAH-Koulutuksen on kehittänyt Susanna Höijer. Koulutuksen sisältö perustuu Susannan
+tietotaitoihin jotka ovat kehittyneet parantajana ja hierojana toimimisesta yli 20 vuoden aikana
+sekä henkisten ja fyysisten tasojen omakohtaisista kokemuksista ja ymmärtämisestä myös
+oireiden hoitamisessa.</p><br></br>
             <p>Höijer on toiminut myös lukuisten parantajakurssien ja monien muiden henkisten ja fyysisten kurssien kouluttajana vuodesta 2005 lähtien.</p>
 
 

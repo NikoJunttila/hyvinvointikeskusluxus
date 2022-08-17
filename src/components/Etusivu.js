@@ -1,16 +1,27 @@
+import {Link} from "react-router-dom"
+
+
+
 function Etusivu(){
     return(
         <div className="etusivu">
-            <h1 className="underline">Hyvinvointikeskus Luxus</h1><br></br>
-            <h3 className="underline">Sinä itse olet oman elämäsi luksus!</h3><br></br>
-            <p>Toivotan sinut lämpimästi tervetulleeksi avaamaan oven omaan hyvinvointiisi sekä itsesi valmentamiseen - ja saavuttamaan elämääsi tasapaino, eheys, ilo, onni ja rakkaus.</p>      
-            <h3 className="underline">Hyvinvointikeskus Luxus palvelee Sinun kokonaisvaltaista hyvinvointiasi ammattitaidolla:</h3>
-            <p>* Hyvinvointipalveluillani pyritään löytämään ne ydinsyyt, miksi terveys tai elämän muut eri osa-alueet ovat epätasapainossa. Palveluissa toimii lähihoidot sekä myös etähoidot.</p>
-            <p>* Koti- ja kodinhoitopalveluillani luodaan antoisaa hyvää oloa, iloa, ja onnellisuutta arkeen sekä puhtautta ja raikkautta kotiin.</p>
-            <p>* Kaupasta voit ostaa hyvää oloa ja yksilöllisiä lahjoja kuten mm. minikursseja, lahjakortteja, uniikkeja koru - ja taidetöitä, pieniä sisustustuotteita, sekä lahjapakkauksia.</p>
-            <p>* Ajanvaraukset hoidat helpoiten Nettiajanvarauksesta. Myös tekstiviestillä ja sähköpostitse voit kysellä aikoja.</p>
+            <p>Hei, kiva että löysit sivuilleni! Täällä Hyvinvointikeskus Luxusessa työskentelee ja Sinua
+palvelee näkijän, parantajan ja koulutetun hierojan yli 20 vuosikymmenen kokemuksella ja
+ammattitaidoilla Susanna Höijer. Toivotan Sinut tervetulleeksi avaamaan oven omaan hyvinvointiisi saavuttamaan tasapainon,
+eheyden ja ilon elämääsi.</p><br></br>
+<p><span className="bold">Hyvinvointipalveluillani</span>pyritään löytämään ydinsyyt siitä, miksi terveys tai elämän muut eri
+osa-alueet ovat epätasapainossa. Palveluissa toimii lähihoidot vastaanotolla Sastamalassa
+sekä myös etähoidot.</p>
+<p>Palveluni on suunnattu sinulle , joka
+haluat muutosta elämääsi ja lisätä hyvinvointia arkeesi.</p>
+<p><span className="bold">Verkkokaupasta</span>voit ostaa hyvää oloa kuten kursseja, lahjakortteja, hoitoja, hoitavia äänitteitä
+sekä uniikkeja käsintehtyjä Ailéakorun koruja.</p>
+<p><span className="bold">Ajanvaraukset</span>hoidat helpoiten <Link to ="nettiajanvaraus" className="cringe">nettiajanvarauksesta. </Link>Myös tekstiviestillä ja sähköpostitse voit
+kysellä aikoja.</p><br></br><p>Tapaamisiin vastaanotolla ja etänä!<span className="cringe">Ja hei muistathan, että</span><span className="cringe2">Sinä itse olet oman elämäsi luksus!</span></p>
+<br></br>
+<p className="cringe">Ota yhteyttä ja kysy lisää!</p>
             <br></br>
-            <h3 className="underline">- Meillä kuuluu olla menneisyys, mutta meidän ei kuulu jäädä jumiin siihen -</h3>
+
             <div className="kuva-container">
             <div className="left-container">
             <img className="etusivu-kuva" src="https://asiakas.kotisivukone.com/files/hyvinvointikeskusluxus.kotisivukone.com/.thumbs/321A7184_337x.jpg" alt="kuva"></img>
@@ -21,6 +32,9 @@ function Etusivu(){
             Susanna Höijer
             <br></br>
             Parantaja, Näkijä, Kouluttaja, Theta Healing® Practioner, Koulutettu hieroja</p>
+            </div>
+            <div>
+                <img className="etusivu-kuva2" src="https://i.imgur.com/6Qa8W4R.jpeg" alt="etusivu-kuva2"></img>
             </div>
             </div>
         </div>

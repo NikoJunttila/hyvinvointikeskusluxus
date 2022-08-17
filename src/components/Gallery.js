@@ -5,7 +5,7 @@ function Galleria(){
         return(
             <div key={x.id}>
                 <p>{x.text}</p>
-                <img src={x.img} alt={x.id}></img>
+                <img className="galleria-img" src={x.img} alt={x.id}></img>
             </div>
         )
     })
